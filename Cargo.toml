@@ -14,8 +14,9 @@ authors = ["ozeraleaddin @gmail.com",
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[[bin]]
-name = "blize-mero"
+# [[bin]]
+# name = "blize-mero"
+# path = "src/blize-mero.rs"
 
 [dependencies]
 piston = "0.53.1"
