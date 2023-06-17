@@ -9,9 +9,7 @@ fn main(){
     
     let mut events = Events::new(EventSettings::new().lazy(true));
 
-    while let Some(e) = events.next(&mut _windows) {
-        
-    }
+    while let Some(e) = events.next(&mut _windows) {}
 
     
 }
