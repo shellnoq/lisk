@@ -1,4 +1,5 @@
 use glutin_window::GlutinWindow;
+use opengl_graphics::{OpenGL, GlGraphics};
 use piston::{WindowSettings, EventLoop};
 use piston::event_loop::{EventSettings, Events};
 
