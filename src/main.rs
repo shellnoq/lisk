@@ -14,8 +14,13 @@ fn main(){
     //     settings.build().expect("could not create window");
     
     let mut events = Events::new(EventSettings::new().lazy(true));
+    let mut gl = GlGraphics::new(opengl); 
 
-    while let Some(e) = events.next(&mut _windows) {}
+    while let Some(e) = events.next(&mut _windows) {
+        if let Some(args) = e.render_args() {
+        
+        }        
+    }
 
     
 }
