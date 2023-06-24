@@ -10,8 +10,8 @@ fn main(){
         .graphics_api(opengl)
         .vsync(true);
 
-    // let mut _windows: GlutinWindow = 
-    //     settings.build().expect("could not create window");
+    let mut _windows: GlutinWindow = 
+        settings.build().expect("could not create window");
     
     let mut events = Events::new(EventSettings::new().lazy(true));
     let mut gl = GlGraphics::new(opengl); 
