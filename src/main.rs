@@ -19,7 +19,10 @@ fn main(){
     while let Some(e) = events.next(&mut _windows) {
         if let Some(args) = e.render_args() {
             gl.draw(args.viewport(), |c, g| { 
-                
+                use graphics::{clear};
+
+                clear([1.0; 4], g);
+
             });
 
         }        
